@@ -1,0 +1,6 @@
+{
+  "projectRoot": "./app",
+  "remotionSkillsPath": "./.agents/skills",
+  "sharedWorkspace": true,
+  "hotReloadEnabled": true
+}
