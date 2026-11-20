@@ -1,3 +1,13 @@
+---
+### 🚨 MANDATORY PRE-SESSION PROTOCOL (READ FIRST) 🚨
+Before executing ANY task, writing ANY code, or starting ANY session, you MUST:
+1. Read and fully understand `AGENTS.md`.
+2. Read and fully understand `AnimationRules.md`.
+3. Strictly apply all rules, styles, and constraints from both files to your current task.
+
+FAILURE CONDITION: If you have not read, understood, and applied these rules, you must IMMEDIATELY STOP. Kill your current process, abort the task, and read both files before proceeding. There are no exceptions.
+---
+
 # STYLE REFERENCE: Crayon Capital (YouTube Channel ID: UCP9RPj_BG0vit2TNM7LuRxA)
 
 ## What We Copy (Style Only)
@@ -11,7 +21,7 @@
 - Character expressions through eyebrow angle and mouth curve only
 
 ## What We DON'T Copy
-- Their finance/business content (we do tech/survival fiction)
+- Their finance/business content (we do tech explainers (how things work, tech history, software/hardware concepts), not finance or survival fiction)
 - Their specific character design (we have AnalogAndy with vest/headphones)
 - Their color palette (we use dark backgrounds + cyan accent)
 - Their thumbnail composition (we adapt for survival theme)
@@ -34,7 +44,7 @@
 
 ## 1. Project Identity
 - **Name:** AnalogAndy
-- **Niche:** Tech/Survival Fiction (Serialized).
+- **Niche:** Tech Explainers (Crayon Capital format, reskinned for technology, hosted by AnalogAndy).
 - **Vibe:** Clinical, calm, second-person narration ("You").
 - **Reference:** "Crayon Capital" meets "Beanie Survives".
 

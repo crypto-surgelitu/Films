@@ -22,21 +22,17 @@
 - Signature: Grey headphones (#696969) around neck, antenna spikes on left ear cup.
 - Pose library: standing, walking, prying, sitting, pointing (right index finger up).
 
-## THE SHADOW (Inner Voice)
-- Same body shape as Andy but pure black (#000000)
-- 20% taller than Andy
-- Glowing outline in accent color (#00D4FF cyan, 3px with blur)
-- Two slit eyes (white, narrow rectangles)
-- Behavior: Grows larger as Andy gets weaker/stressed. Appears during internal conflict moments.
+## THE SHADOW (Audience-Proxy Skeptic)
+- Same body shape as Andy but pure black (#000000), 20% taller.
+- Glowing outline in accent color (#00D4FF cyan, 3px with blur) and two slit eyes.
+- Role: He asks the naive, obvious, or skeptical question the viewer is thinking ('But why would anyone pay for that?', 'Wait, isn't that illegal?'). Andy then answers him simply.
 
 ## TEXT & TYPOGRAPHY
 - Font: Comic Neue (import via Google Fonts in index.html)
 - Narrator text: Small (24px), white (#FFFFFF), top-center, max 8 words, fade in/out over 2 seconds
 - Shadow text: Accent color (#00D4FF), appears beside shadow character, typewriter effect
-- Day counter: Top-left corner, white, monospace font, "DAY X" format
 
 ## GAME FEEL ELEMENTS
-- DAY counter: Persistent top-left, updates at episode start
 - Rep counter: Pops on screen when Andy repeats an action (e.g., "Attempt #3")
 - Inventory: After Day 1, Andy keeps one visible item (tool, bottle, etc.) for rest of film
 - Impact effects: Big hits get speed lines (white streaks) and screen flash (white overlay, 2 frames)
@@ -61,3 +57,15 @@
 - Backgrounds are static SVG plates imported from `app/public/bg-[scene].svg`
 - Use `@remotion/spring` for all spring animations
 - Use `@remotion/transitions` for scene transitions
+
+## EXPLAINER FORMAT (Crayon Capital model)
+
+* Each video answers ONE specific tech question (software, hardware, or tech-history).
+* Structure = 5 beats: (1) Loaded hook question/absurd contrast, (2) Host (Andy) reacts visually, (3) Shadow asks the naive viewer question, Andy answers simply, (4) Diagram-driven breakdown (one flat-2D visual per concept), (5) The "why it matters" takeaway.
+* Tone: Calm, curious, second-person ("you"), "explained like you're 5" simplification. No drama, no disaster.
+* Replace the DAY counter with a SECTION/CHAPTER marker (top-left, "Part X of Y" or "Concept 1/3").
+* Title-card block stays (last 12s, one-word topic types in, wavy underline) but the word is the TOPIC (e.g., "GPS", "SERVERS"), not a disaster.
+
+## THUMBNAIL RULES
+
+* Andy's face reacting big on the left + one glowing object of curiosity on the right + 3–5 word bold white title with black outline + dark bg + single bright accent. Readable at 120px.
