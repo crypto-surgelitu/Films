@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+app/node_modules/
+
+# Build & Render Output
+dist/
+out/
+build/
+.remotion-cache/
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+
+# Local Agent Memory (Do not share across different AI tools)
+.claude/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
